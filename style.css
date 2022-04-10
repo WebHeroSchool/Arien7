@@ -1,6 +1,53 @@
-.title {
+.logo {
   font-family: 'PT Serif', serif;
+  padding: 40px 0;
 }
-.text {
+.menu__item {
   font-family: 'Roboto', sans-serif;
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+.main-content__title {
+  font-family: 'PT Serif', serif;
+  border: dashed 1px red;
+  margin: 206px 0 40px 0;
+}
+.main-content__subtitle {
+  font-family: 'Roboto', sans-serif;
+  border: dashed 1px red;
+  margin: 0 0 40px 0;
+}
+.main-content__button {
+  font-family: 'Roboto', sans-serif;
+  border: dashed 1px red;
+  margin: 0 0 317px 0;
+}
+body {
+  margin: 0;
+  border: dashed 1px red;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.header {
+  border: dashed 1px red;
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .menu {
+  display: inline-block;
+  border: dashed 1px red;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
+.main-content {
+  border: dashed 1px green;
+  width: 30%;
 }
